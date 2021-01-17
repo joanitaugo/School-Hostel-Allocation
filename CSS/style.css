@@ -7756,8 +7756,9 @@ input:checked + .switch-button:before {
 
 /* Dark Style */
 .intro-banner.dark-overlay:before {
-	background: #333;
-	opacity: 0.75;
+	background: url(../images/home-bg.jpg) no-repeat;
+	background-size: cover;
+	opacity: 0.85;
 }
 
 .intro-banner.dark-overlay .background-image-container {
